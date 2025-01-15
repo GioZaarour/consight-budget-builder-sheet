@@ -1,45 +1,29 @@
 {
-  "name": "univer-test",
+  "name": "consight-spreadsheet",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@radix-ui/react-dialog": "^1.1.4",
-    "@radix-ui/react-label": "^2.1.1",
-    "@radix-ui/react-popover": "^1.1.4",
-    "@radix-ui/react-scroll-area": "^1.2.2",
-    "@radix-ui/react-toast": "^1.2.4",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.86",
-    "@types/react": "^18.2.61",
+    "@types/node": "^20.11.16",
+    "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
-    "@univerjs/core": "latest",
-    "@univerjs/design": "latest",
-    "@univerjs/docs": "latest",
-    "@univerjs/docs-ui": "latest",
-    "@univerjs/engine-formula": "latest",
-    "@univerjs/engine-render": "latest",
-    "@univerjs/sheets": "latest",
-    "@univerjs/sheets-formula": "latest",
-    "@univerjs/sheets-formula-ui": "latest",
-    "@univerjs/sheets-ui": "latest",
-    "@univerjs/ui": "latest",
-    "@uploadthing/react": "^7.1.5",
-    "class-variance-authority": "^0.7.1",
-    "clsx": "^2.1.1",
-    "cmdk": "^1.0.4",
-    "lucide-react": "^0.471.0",
+    "@types/uuid": "^9.0.8",
+    "@univerjs/core": "^0.5.3",
+    "@univerjs/design": "^0.5.3",
+    "@univerjs/docs": "^0.5.3",
+    "@univerjs/docs-ui": "^0.5.3",
+    "@univerjs/engine-formula": "^0.5.3",
+    "@univerjs/engine-render": "^0.5.3",
+    "@univerjs/presets": "^0.5.3",
+    "@univerjs/sheets": "^0.5.3",
+    "@univerjs/sheets-formula": "^0.5.3",
+    "@univerjs/sheets-formula-ui": "^0.5.3",
+    "@univerjs/sheets-ui": "^0.5.3",
+    "@univerjs/ui": "^0.5.3",
+    "consight-spreadsheet": "file:",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "tailwind-merge": "^2.6.0",
-    "tailwindcss-animate": "^1.0.7",
     "typescript": "^4.9.5",
-    "univer-test": "file:",
-    "uploadthing": "^7.4.4",
-    "web-vitals": "^2.1.4"
+    "uuid": "^9.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -47,11 +31,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "react-scripts": "5.0.1"
   },
   "browserslist": {
     "production": [
@@ -64,10 +46,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.17"
   }
 }
