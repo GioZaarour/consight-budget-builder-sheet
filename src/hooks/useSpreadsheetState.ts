@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from 'uuid';
-import { SpreadsheetState, BudgetSummaryColumnType, DivisionColumnType } from './types';
+import { SpreadsheetState, BudgetSummaryColumnType, DivisionColumnType } from '../types/types';
 
 const createInitialState = (projectId: string): SpreadsheetState => {
   console.log('[useSpreadsheetState] Creating initial state for project:', projectId);

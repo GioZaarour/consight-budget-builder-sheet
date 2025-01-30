@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sheet } from './types';
+import { Sheet } from '../../types/types';
 
 interface CustomToolbarProps {
   activeSheet: Sheet;

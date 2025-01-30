@@ -26,8 +26,8 @@ import '@univerjs/sheets-ui/lib/index.css';
 import '@univerjs/sheets-formula-ui/lib/index.css';
 import '@univerjs/docs-ui/lib/index.css';
 
-import { SpreadsheetState, Sheet } from './types';
-import { ColumnHeader } from './ColumnHeader';
+import { SpreadsheetState, Sheet } from '../../types/types';
+import { ColumnHeader } from '../toolbar/ColumnHeader';
 
 interface UniverSpreadsheetProps {
   initialState: SpreadsheetState;

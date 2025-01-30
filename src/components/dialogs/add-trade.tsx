@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import defaultCostCodes from './defaultCostCodes';
+import defaultCostCodes from '../../utils/defaultCostCodes';
 
 interface CostCode {
   code: string;

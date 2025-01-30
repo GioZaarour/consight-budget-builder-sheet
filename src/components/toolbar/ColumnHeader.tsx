@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Column, DivisionColumnType } from './types';
+import { Column, DivisionColumnType } from '../../types/types';
 import { ColumnHeaderMenu } from './ColumnHeaderMenu';
-import { BidBook } from './bidbook';
+import { BidBook } from '../../utils/bidbook';
 
 interface ColumnHeaderProps {
   column: Column;

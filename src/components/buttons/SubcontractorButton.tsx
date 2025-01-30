@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { SubcontractorInfo } from './types';
+import { SubcontractorInfo } from '../../types/types';
 
 interface SubcontractorButtonProps {
   columnId: string;

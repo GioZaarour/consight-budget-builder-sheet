@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { UniverSpreadsheet } from './UniverSpreadsheet';
-import { AddTradeDialog } from './add-trade';
-import { AddColumnDialog } from './add-column';
-import { CustomToolbar } from './CustomToolbar';
-import { BudgetSummaryColumnType, DivisionColumnType, SpreadsheetState } from './types';
+import { UniverSpreadsheet } from './components/spreadsheet/UniverSpreadsheet';
+import { AddTradeDialog } from './components/dialogs/add-trade';
+import { AddColumnDialog } from './components/dialogs/add-column';
+import { CustomToolbar } from './components/toolbar/CustomToolbar';
+import { BudgetSummaryColumnType, DivisionColumnType, SpreadsheetState } from './types/types';
 import { v4 as uuidv4 } from 'uuid';
-import { useSpreadsheetState } from './useSpreadsheetState';
+import { useSpreadsheetState } from './hooks/useSpreadsheetState';
 
 function App() {
   const [projectId] = useState(() => uuidv4());

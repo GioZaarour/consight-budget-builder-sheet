@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BudgetSummaryColumnType, DivisionColumnType, Sheet } from './types';
+import { BudgetSummaryColumnType, DivisionColumnType, Sheet } from '../../types/types';
 
 interface AddColumnDialogProps {
   isOpen: boolean;

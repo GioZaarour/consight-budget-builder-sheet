@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Column } from './types';
+import { Column } from '../../types/types';
 
 interface ColumnHeaderMenuProps {
   column: Column;
